@@ -1,0 +1,81 @@
+/* 字体样式的重置 */
+:root{
+  min-height: 100%;
+  font-size: calc(0.75vw + 8px);
+  font-family: "微软雅黑";
+}
+
+@media(max-width: 750px) {
+  :root {
+    font-size: calc(0.75vw + 12px);
+  }
+}
+
+@font-face {
+  src: url(./../fonts//BRUSHSCI.TTF);
+  font-family: BRUSHSCI;
+}
+
+body {
+  font-size: 1rem;
+  min-height: 100%;
+  margin: 0;
+  background-image: url(./../images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, input, p, button {
+  font-size: 1rem;
+}
+
+/* flex布局 */
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+/* p标签的重写 */
+p {
+  font-family: serif;
+  padding: 0.25rem 0;
+  margin: 0;
+}
+
+/* input 框的重写  */
+input {
+  border: 1px solid #ccc;
+  border-radius: 1.5px;
+}
+
+input {
+  line-height: 1.75rem;
+  padding: 0.05rem 0.25rem;
+}
+
+/* ul li 组件套 */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* 下划线 */
+hr {
+  height: 1px;
+}

@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Tahoma, "Microsoft Yahei", "Hiragino Sans GB", sans-serif;
+}
+
+html,
+body {
+  width:100%;
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-size: 14px;
+  color: #666;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #82bb24;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  padding-left: 20px;
+  list-style-type: decimal;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  font-size: 14px;
+  border: 1px solid #ca0d0d;
+  border-radius: 2px;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 34px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+textarea {
+  padding: 8px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  outline: 0;
+  border: 1px solid #82bb24;
+}
+
+.showTitle{
+  width:100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  display: inline-block;
+  background: #ca0d0d;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.clearfix:after,
+.container:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.avatar {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #eee;
+  border: 0;
+  border-radius: 100px;
+}
+
+.avatar-30 {
+  width: 30px;
+  height: 30px;
+}
+
+.avatar-80 {
+  width: 80px;
+  height: 80px;
+}
+
+.text-small,
+.text-small * {
+  font-size: 12px;
+}
+
+.text-large,
+.text-large * {
+  font-size: 20px;
+}
+
+.text-ltgray,
+.text-ltgray * {
+  color: #999;
+}
+
+.text-mdgray,
+.text-mdgray * {
+  color: #666;
+}
+
+.text-dkgray,
+.text-dkgray * {
+  color: #333;
+}
+
+.text-green,
+.text-green * {
+  color: #82bb24;
+}
+
+.text-orange,
+.text-orange *,
+.text-highlight {
+  color: #f99921;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-bold,
+strong,
+strong * {
+  font-weight: 800;
+}
+
+.text-small .fa {
+  width: 14px;
+  text-align: center;
+}
+
+.bg-dkgray {
+  background-color: #333;
+  color: #fff;
+}
+
+.bg-ltgray {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.bg-green {
+  background-color: #82bb24;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  margin: 3px 0;
+  padding: 4px 10px;
+  border-radius: 2px;
+  line-height: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid #ddd;
+  color: #666;
+}
+
+.btn-outline:hover {
+  border-color: #82bb24;
+  color: #82bb24;
+}
+
+.btn-solid {
+  border: 1px solid #82bb24;
+  background: #82bb24;
+  color: #fff;
+}
+
+.btn-solid:hover {
+  border-color: #97c936;
+  background: #97c936;
+  color: #fff;
+}
+
+.btn-solid-ltgray {
+  border: 1px solid #ccc;
+  background: #ccc;
+  color: #fff;
+}
+
+.btn-solid-ltgray:hover {
+  border-color: #bbb;
+  background: #bbb;
+  color: #fff;
+}
+
+/* logo 样式 */
+.logo {
+  padding: 1.5rem 6vw;
+  font-family: BRUSHSCI;
+}
+
+.listComment {
+  height: 40px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 11px 2px yellowgreen;
+  margin: 0 auto 16px;
+  line-height: 40px;
+  padding: 0 10px;
+  color: #000;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imageTitle {
+  display: flex;
+  align-items: center;
+}
+.showPost{
+  padding:0 6%;
+}
+.nameText {
+  color: #4BA0E1;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imageCover {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  margin-right: 10px;
+}
+
+.inputContent {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  padding: 0 1.75rem 0 0.75rem;
+  border: 1px solid yellowgreen;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.buttonSet {
+  width: 100px;
+  height: 40px;
+  background: #82bb24;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.floatbg {
+  transform: scaleY(1);
+  transition: transform 0.5s;
+  transform-origin: top center;
+}
+
+.active {
+  transform: scaleY(0);
+  transition: transform 0.5s;
+  transform-origin: top center;
+}
+
+.content {
+  height: 50vh;
+  overflow: auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 6px;
+  background: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff4d4d;
+  border-radius: 6px;
+}
+
+.logo span {
+  color: white;
+}
+
+.logo-left {
+  font-size: 4rem;
+}
+
+.logo-right {
+  font-size: 1rem;
+}
+
+
+/* center-box 样式 */
+.center-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all .25s;
+}
+
+
+
+.center-box input,
+.operate-btn {
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.center-box input {
+  box-sizing: border-box;
+  width: 50%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  padding: 0 1.75rem 0 0.75rem;
+  border: none;
+  outline: none;
+}
+
+
+/* 操作的盒子 */
+.operate-btn-box {
+  display: flex;
+}
+
+
+
+.operate-btn {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  padding: 0 0.75rem;
+  margin-left: 0.5rem;
+  /* background-color: #101855; */
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+
+.operate-btn:nth-child(1):hover {
+  background-color: #e9aa8c;
+}
+
+.operate-btn:nth-child(2):hover {
+  background-color: #e5a889;
+}

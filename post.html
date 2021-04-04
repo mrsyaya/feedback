@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/public/css/index.css"
+</head>
+<body>
+  <div class="showPost">
+    <a class="showTitle" style="color:#fff" href="/">
+      返回
+    </a>
+    <div class="mcommon cmtpost">
+       <form action="/pinglun" method="get">
+        评论人:
+        <input placeholder="请输入评论名字"  id="parent_id" value="" class="inputContent" name="name" required maxlength="5"/>
+        评论内容：
+        <textarea placeholder="请输入评论内容" id="comment_content" style="width:98%;height:200px;" name="title" required maxlength="300"></textarea>
+        <p class="text-right"><button type="submit" class="buttonSet">发表</button></p>
+       </form>
+    </div>
+  </div>
+</body>
+</html>

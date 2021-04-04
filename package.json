@@ -1,0 +1,19 @@
+{
+  "name": "feedback",
+  "version": "1.0.0",
+  "description": "留言",
+  "main": "app.js",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "moment": "^2.29.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
